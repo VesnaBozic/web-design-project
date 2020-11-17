@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} /* this grabs everything */
+
+/*Main style*/
+html, body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.7em;}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/*Utility classes that we can use all around*/
+.container {
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: white;
+}
+
+
+
+
+
+/*Navigation bar */
+
+#navbar {
+   background-color:#ebecf1;
+   color: white; 
+   overflow: auto;
+}
+
+#navbar a {
+    color: black;
+} 
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background:#07689f;
+    color:white;
+    border-radius:25px ;
+    box-shadow: 2px 2px 12px rgba(247, 202, 24, 1);
+}
+#navbar h1:hover {
+    font-weight: 1000;
+    color:#07689f; 
+    letter-spacing: 8px;
+}
+
+/*Showcase*/
+
+#showcase { 
+    position: relative;
+    height: 100%;
+    margin:0px;
+    padding:0px;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#ebecf1;
+    display:flex;
+}
+    .slider-box {
+        margin: 20px;
+         height:350px ;
+         width: 250px;
+         position: relative;
+         background-color: #FFFFFF;
+         border-radius:5px ;
+         display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+    }
+    .slider-box a {
+        text-decoration: none;
+        text-align: center;
+    } 
+    .img-box {
+        height: 170px;
+    }
+    .img-box img{
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .time {
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        color:#ffc93c;
+        font-weight: 00;
+    }
+    .detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        font-size:15px;
+        line-height: 35px;
+        font-weight:500 ;
+    }
+    .price {
+        color: #FFFFFF;
+        background-color: black;
+        line-height: 20px;
+    }
+    .cart {
+        position: absolute;
+        bottom: 0px;
+        height: 45px;
+        background-color:#07689f;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+
+    } .cart a {
+        color:#FFFFFF;
+    }
+    .slider-box:hover {
+        box-shadow: 2px 2px 12px rgba(247, 202, 24, 1);
+    }
+    .slider-box:hover .img-box img {
+        transform: scale(1.07);
+        transition: all ease 0.3s;
+    }
+    .cart:hover {
+        transform:scale(1.1) ;
+    background-color:#ffc93c;
+     box-shadow: 2px 2px 12px rgba(47,47,47,0.40);   
+     transition: all ease 0.1s;
+        }
+
+  
+#money {
+    color:red;
+    font-weight:800;
+    font-size: 18px;
+
+}
+
+#total-amount a{
+    background:#07689f;
+    color:white;
+    border-radius:25px ;
+    
+}
+
+.receipt {
+    color:red;
+    
+    line-height: 20px;
+    border:2px solid red;
+}
+
+.receipt:hover {
+    color:#ffc93c;
+    border:2px solid #ffc93c;
+}
+
+
+

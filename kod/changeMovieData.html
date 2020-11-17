@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to WD MOVIES">
+    <meta name="keywords" content="movie, movies,film, films, online cine, rent a movie, rent a film, buy a movie">
+    <link rel="stylesheet" href="movies.css">
+    <link rel="stylesheet" href="changeMoveData.css">
+    <link rel="shortcut icon" href="/posteri/icon.png">
+    <title>WD movies</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="adminLog.html">WDM</a></h1>
+                <ul>
+                    <li><a href="newAdmin.html">Add new admin</a></li>
+                    <li><a href="addNewMovie.html">Add movie</a></li>
+                    <li><a href="adminLog.html">Delete movie</a></li>
+                    <li><a href="index.html">Log out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="showcase"> 
+        <div class="loginbox">
+        <img src="/posteri/avatar.png" class="avatar">
+        <h1>Change Movie</h1>
+        <form>
+            <p> Movie Title</p>
+            <input id="change-movie-title" type="text" name="" placeholder="Enter new movie title">
+            <p>Genre</p>
+            <input id="change-movie-genre" type="text" name="" placeholder="Enter movie genre">
+            <p>Year</p>
+            <input id="change-movie-year" type="text" name="" placeholder="Enter year">
+            <p>Director</p>
+            <input id="change-movie-director" type="text" name="" placeholder="Enter Director">
+            <p>Price</p>
+            <input id="change-movie-price" type="text" name="" placeholder="Enter price">
+            <p>Description</p>
+            <input id="description-box"type="text" name="" placeholder="Enter description">
+            <p>Image</p>
+            <input id="change-movie-image"type="text" name="" placeholder="Enter Image link">
+            <button onclick="changeMovieData()" type="button-new-data" name="">Change</button>
+            
+        </form>
+    </div>
+
+    </div>
+
+    <script src="changeMovieData.js"></script>
+   
+    <script>
+
+    </script>
+
+
+
+</body>
+
+</html>

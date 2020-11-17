@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info</title>
+    <link rel="shortcut icon" href="/posteri/icon.png">
+    <link rel="stylesheet" href="movie.css">
+    
+</head>
+<body>
+    <div  ><button id="btn" onclick="goBack()">GO BACK</button></div>
+    <div class="box">
+        <img id="movie-image" src="/posteri/avatar.jpg" alt="" class="box-img">
+        <h1 id="movie-name">Avatar</h1>
+        <h5 id="movie-genre">Adventure</h5>
+        <h5 id="movie-year">2009</h5>
+        <h5>Director:<a class="director" href="directorUser.html" id="movie-director">James Cameron</a></h5>
+        <p id="movie-description">On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully, a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman. As a bond with her grows, he is drawn into a battle for the survival of her world.</p>
+    </div>
+    <script src="moviejs.js"></script>
+    <script>
+        function goBack() {
+          window.history.back();
+        }
+
+        let director = document.getElementById('movie-director').textContent;
+        localStorage.setItem('director',director);
+        </script>
+</body>
+</html>

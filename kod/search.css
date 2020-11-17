@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} /* this grabs everything */
+
+/*Main style*/
+html, body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.7em;}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/*Utility classes that we can use all around*/
+.container {
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: white;
+}
+
+.lead {
+    font-size: 16px;
+    color:white;
+}
+.btn {
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background:white;
+    color: #333;
+}
+
+
+/*Navigation bar */
+
+#navbar {
+   background-color: #333;
+ 
+   overflow: auto;
+}
+
+#navbar a {
+    color:white;
+} 
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar h1:hover {
+    font-weight: 1000;
+ 
+    letter-spacing: 8px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background: #444;
+    color:#f7c08a;
+}
+
+main {
+    margin:0;
+    padding:0;
+    background: url('../posteri/pozadina3.jpg') no-repeat center/cover;
+    height:650px; 
+    font-family:sans-serif;
+
+}
+
+h1 {
+    color: aliceblue;
+    margin: 0 0 10px;
+    padding: 0;
+    color:#fff;
+    font-size: 24px;;
+
+}
+
+.box {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+
+}
+
+input, select {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="text"],select {
+    background: #fff;
+    width:350px ;
+    height: 50px;
+    border:none;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 25px 0 0 25px;
+
+}
+
+button {
+   position: relative;
+   border-radius: 0 25px 25px 0;
+   width: 150px;
+   height: 50px;
+   border:none;
+   outline: none;
+   cursor: pointer;
+   background: #f7c08a; 
+   color:#fff;
+   font-size: 20px;
+   
+}
+button:hover {
+letter-spacing: 5px;}
