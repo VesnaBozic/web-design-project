@@ -1,4 +1,5 @@
-# movie-site
+# Project for Web Design
+
 Movie site for renting movies/HTML/CSS/JavaScript
 
 Site is used by two type of users: admins and buyers. 
