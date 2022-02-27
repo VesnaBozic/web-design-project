@@ -1,10 +1,15 @@
 # movie-site
 Movie site for renting movies/HTML/CSS/JavaScript
 
-Site is used by two type of users: admins and buyers. Buyers are defined with name, surname, username and password.
+Site is used by two type of users: admins and buyers. 
+
+Buyers are defined with name, surname, username and password.
 Admins are defined by username and password. 
+
 Movies are defined with genre, movie description, director, poster, production year and price.
+
 Directors are defined by name surname and all the movies they directed.
+
 Site has next pages: 
 -Main page
 -Search movies page
